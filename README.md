@@ -10,6 +10,8 @@ To run this project, you will need to have the following software installed:
 - PHP 7 or higher
 - PostgreSQL 16
 
+#### **Note**: I used the font awesome for icons
+
 ## Installation
 
 ### Step 1: Clone the repository
