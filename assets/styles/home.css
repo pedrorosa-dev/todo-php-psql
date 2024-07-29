@@ -1,12 +1,8 @@
 .home-screen {
   display: flex;
   justify-content: space-evenly;
-  height: 55vh;
+  height: 60vh;
   align-items: center;
-}
-
-.container-home {
-  margin-right: 16rem;
 }
 
 .text-home {
