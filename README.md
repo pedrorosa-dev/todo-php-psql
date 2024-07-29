@@ -1,3 +1,5 @@
+<img src="/assets/images/homeScreen.png" alt="home screen" width="">
+
 # Todo Task Application
 
 This is a Todo Task application developed using HTML, JS, CSS, PHP, and PostgreSQL. It allows users to efficiently manage their tasks.
