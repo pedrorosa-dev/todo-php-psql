@@ -36,18 +36,32 @@ php -S localhost:8000
 
 ##### Update the conn.php file with your database credentials to establish a connection.
 
+- #### First, create a conn.php file in the database folder with your database credentials.
+- #### To make it easier, you can use the conn-example.php file as a template. It should look like this:
+
 ```bash
 <?php
-$host = 'localhost';
-$dbname = 'todotasksdb';
-$user = 'postgres';
-$password = 'your-password';
+$host = '#';
+$dbname = '#';
+$user = '#';
+$password = '#';
+
+try {
+  $pdo = new PDO("pgsql:host=$hostname;dbname=$database", $username, $password);
+} catch (PDOException $e) {
+  echo "Error" . $e->getMessage();
+}
 ?>
 ```
 
+- Copy the example file:
+
+- In your terminal or file explorer, navigate to the database folder.
+- Copy the conn-example.php file and rename it to conn.php.
+
 ## Project Structure
 
-- `index.html`: Main page of the application.
+- `index.php`: Main page of the application.
 - `style.css`: CSS stylesheet.
 - `script.js`: jQuery script for DOM manipulation.
 - `conn.php`: Database connection configuration file.
