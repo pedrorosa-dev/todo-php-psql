@@ -63,7 +63,7 @@ try {
 
 - `index.php`: Main page of the application.
 - `style.css`: CSS stylesheet.
-- `script.js`: jQuery script for DOM manipulation.
+- `script.js`: Javascript for DOM manipulation.
 - `conn.php`: Database connection configuration file.
 - `./actions`: PHP file for managing CRUD operations with the database.
 
