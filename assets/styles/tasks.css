@@ -88,9 +88,15 @@
 .action-button.edit-button {
   color: var(--foreground);
 }
+.action-button.edit-button:hover {
+  scale: 1.1;
+}
 
 .action-button.delete-button {
   color: rgb(234, 16, 114);
+}
+.action-button.delete-button:hover {
+  scale: 1.1;
 }
 .hidden {
   display: none;
