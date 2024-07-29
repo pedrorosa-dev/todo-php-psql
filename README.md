@@ -36,8 +36,8 @@ php -S localhost:8000
 
 ##### Update the conn.php file with your database credentials to establish a connection.
 
-- #### First, create a conn.php file in the database folder with your database credentials.
-- #### To make it easier, you can use the conn-example.php file as a template. It should look like this:
+- First, create a conn.php file in the database folder with your database credentials.
+- To make it easier, you can use the conn-example.php file as a template. It should look like this:
 
 ```bash
 <?php
