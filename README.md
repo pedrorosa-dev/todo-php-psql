@@ -1,6 +1,6 @@
 # Todo Task Application
 
-This is a Todo Task application developed using HTML, jQuery, CSS, PHP, and PostgreSQL. It allows users to efficiently manage their tasks.
+This is a Todo Task application developed using HTML, JS, CSS, PHP, and PostgreSQL. It allows users to efficiently manage their tasks.
 
 ## IMPORTANT: ONLY DESKTOP
 
@@ -37,7 +37,7 @@ php -S localhost:8000
 ```bash
 <?php
 $host = 'localhost';
-$dbname = 'todotaskdb';
+$dbname = 'todotasksdb';
 $user = 'postgres';
 $password = 'your-password';
 ?>
@@ -63,7 +63,7 @@ $password = 'your-password';
 
 - HTML
 - CSS
-- jQuery
+- JS
 - PHP
 - PostgreSQL
 
