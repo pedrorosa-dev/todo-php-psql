@@ -50,7 +50,7 @@ if ($sql->rowCount() > 0) {
         <div class="text-principal-home">
           Write your tasks in a <span class="simples">simple way</span>
         </div>
-        <div class="text-secondary-home">Fast, effective e functional</div>
+        <div class="text-secondary-home">Fast, effective and functional</div>
       </div>
     </div>
     <div id="to-do">
