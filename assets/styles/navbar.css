@@ -1,9 +1,9 @@
 .navegate-bar {
-  background-color: khaki;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--background-white);
+  /* background-color: var(--background-white); */
+  background-color: white;
   padding: 0.4rem;
   margin: 5px;
 }
@@ -23,7 +23,7 @@
 }
 
 .navbar-container {
-  display: flex;
+  display: none;
   gap: 2rem;
   margin: 2rem;
   color: var(--foreground);
