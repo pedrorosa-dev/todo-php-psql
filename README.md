@@ -2,6 +2,8 @@
 
 This is a Todo Task application developed using HTML, jQuery, CSS, PHP, and PostgreSQL. It allows users to efficiently manage their tasks.
 
+## IMPORTANT: ONLY DESKTOP
+
 ## Requirements
 
 To run this project, you will need to have the following software installed:

@@ -7,66 +7,131 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/icons/apple-touch-icon.png"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/icons/favicon-16x16.png"
     />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
-    <title>ToDo-task</title>
+    <link rel="stylesheet" href="./assets/styles/navbar.css" />
+    <link rel="stylesheet" href="./assets/styles/home.css" />
+    <link rel="stylesheet" href="./assets/styles/footer.css" />
+    <link rel="stylesheet" href="./assets/styles/tasks.css" />
+    <title>ToDoTasks</title>
   </head>
   <body>
-    <div id="to-do">
-      <h1>Write yours tasks</h1>
-      <form action="" method="post" class="to-do-form">
-        <input
-          type="text"
-          name="description"
-          id="description"
-          placeholder="Write your task here"
-          required
-        />
-        <button type="submit" class="form-button">
-          <i class="fa-solid fa-plus"></i>
-        </button>
-      </form>
-      <div id="tasks">
-        <div class="task">
-          <input
-            type="checkbox"
-            name="progress"
-            id="progress"
-            class="progress"
-          />
-          <p class="task-description">Tarefa de casa</p>
-          <div class="task-actions">
-            <a href="" class="action-button edit-button">
-              <i class="fa-solid fa-pen-to-square"></i>
-            </a>
-            <a href="" class="action-button delete-button">
-              <i class="fa-solid fa-trash-can"></i>
-            </a>
+    <header class="navegate-bar">
+      <h1 class="logo"><span class="todo">T</span>T</h1>
+      <ul class="navbar-container">
+        <li class="navbar-content">
+          <a href="#" class="items-menu"> <i class="fa-solid fa-plus"></i></a>
+        </li>
+        <li class="navbar-content">
+          <a href="#" class="items-menu"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </li>
+        <li class="navbar-content">
+          <a href="#" class="profile items-menu"
+            ><i class="fa-solid fa-user"></i
+          ></a>
+        </li>
+      </ul>
+    </header>
+    <section class="home-screen">
+      <div class="container-home">
+        <div class="text-home">
+          <div class="title-home"><span class="todo-home">ToDo</span>Tasks</div>
+          <div class="text-principal-home">
+            Write your tasks in a <span class="simples">simple way</span>
           </div>
-          <form action="" class="to-do-form edit-task">
-            <input
-              type="text"
-              name="description"
-              id="description"
-              placeholder="Edit your task here"
-            />
-            <button type="submit" class="form-button confirm-button">
-              <i class="fa-solid fa-check"></i>
-            </button>
-          </form>
+          <div class="text-secondary-home">Fast, effective e functional</div>
         </div>
       </div>
-    </div>
+      <div id="to-do">
+        <h3>Write yours tasks</h3>
+        <form action="" method="post" class="to-do-form">
+          <input
+            type="text"
+            name="description"
+            id="description"
+            placeholder="Write your task here"
+            required
+          />
+          <button type="submit" class="form-button">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </form>
+        <div id="tasks">
+          <div class="task">
+            <input
+              type="checkbox"
+              name="progress"
+              id="progress"
+              class="progress"
+            />
+            <p class="task-description">Testing alguma coisa</p>
+            <div class="task-actions">
+              <a href="" class="action-button edit-button">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </a>
+              <a href="" class="action-button delete-button">
+                <i class="fa-solid fa-trash-can"></i>
+              </a>
+            </div>
+            <form action="" class="to-do-form edit-task hidden">
+              <input
+                type="text"
+                name="description"
+                id="description"
+                placeholder="Edit your task here"
+              />
+              <button type="submit" class="form-button confirm-button">
+                <i class="fa-solid fa-check"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-footer">
+      <div class="container-footer-menu">
+        <div class="logo-footer"><span class="todo-footer">T</span>T</div>
+        <div class="container-creator">
+          <span class="title-footer">Creator</span>
+          <p class="distancia">
+            <a href="#" class="items-footer">Pedro Rosa</a>
+          </p>
+          <p class="distancia">
+            <a href="#" class="items-footer">GitHub</a>
+          </p>
+        </div>
+        <div class="contact-container">
+          <div class="contact-content">
+            <span class="title-footer">Contact</span>
+            <p class="distancia">
+              <a href="#" class="items-footer">devpedrorosa@gmail.com</a>
+            </p>
+            <p class="distancia">
+              <a href="#" class="items-footer">+55 9 9999-9999</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="direitos">Created in <span class="ano"> 2024</span></div>
   </body>
 </html>
