@@ -43,7 +43,7 @@
   transition: scale 0.5s ease;
 }
 
-.to-do-form .fore-button:hover {
+.to-do-form .form-button:hover {
   cursor: pointer;
   scale: 1.05;
 }
@@ -68,6 +68,10 @@
 .task .progress {
   margin-right: 10px;
 }
+.task .progress.done + .task-description {
+  text-decoration: line-through;
+  color: #450b45;
+}
 
 .task .task-description {
   font-size: 16px;
@@ -88,10 +92,16 @@
 .action-button.edit-button {
   color: var(--foreground);
 }
+.action-button.edit-button:hover {
+  scale: 1.1;
+}
 
 .action-button.delete-button {
   color: rgb(234, 16, 114);
 }
+.action-button.delete-button:hover {
+  scale: 1.1;
+}
 .hidden {
-  display: none;
+  display: none !important;
 }
