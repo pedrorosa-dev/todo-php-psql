@@ -1,0 +1,58 @@
+.container-footer {
+  margin-top: 10rem;
+  padding: 2rem;
+  background-color: var(--background-white);
+}
+.container-footer-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-footer {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  color: var(--foreground);
+  font-family: "Poppins", sans-serif;
+  margin-right: 5rem;
+}
+
+.todo-footer {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  color: #450b45;
+}
+
+.title-footer {
+  font-size: 1.1rem;
+}
+
+.direitos {
+  font-size: 0.8rem;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  background-color: var(--background-white);
+  align-items: center;
+  justify-content: center;
+}
+
+.ano {
+  color: var(--foreground);
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  margin-left: 3px;
+}
+
+.items-footer {
+  color: #814eda95;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+.items-footer:hover {
+  transition: all 300ms;
+  color: #450b45;
+}
+
+.distancia {
+  margin-top: 0.6rem;
+}

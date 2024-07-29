@@ -1,0 +1,40 @@
+.home-screen {
+  display: flex;
+  justify-content: space-evenly;
+  height: 55vh;
+  align-items: center;
+}
+
+.text-home {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.todo-home {
+  font-size: 4rem;
+  color: rgb(69, 11, 69);
+}
+
+.title-home {
+  color: var(--foreground);
+  font-size: 3rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-principal-home {
+  font-size: 2rem;
+}
+
+.simples {
+  font-size: 2rem;
+}
+
+.text-secondary-home {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--foreground);
+}

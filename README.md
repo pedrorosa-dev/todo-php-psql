@@ -1,6 +1,10 @@
+<img src="/assets/images/homeScreen.png" alt="home screen" width="">
+
 # Todo Task Application
 
-This is a Todo Task application developed using HTML, jQuery, CSS, PHP, and PostgreSQL. It allows users to efficiently manage their tasks.
+This is a Todo Task application developed using HTML, JS, CSS, PHP, and PostgreSQL. It allows users to efficiently manage their tasks.
+
+## IMPORTANT: ONLY DESKTOP
 
 ## Requirements
 
@@ -9,6 +13,8 @@ To run this project, you will need to have the following software installed:
 - Node.js
 - PHP 7 or higher
 - PostgreSQL 16
+
+#### **Note**: I used the [Font Awesome](https://fontawesome.com/) for icons
 
 ## Installation
 
@@ -24,7 +30,7 @@ git clone https://github.com/pedrorosa-dev/todo-php-psql
 php -S localhost:8000
 ```
 
-#### **Note**: You can use XAMPP if preferred.
+#### **Note**: You can use [XAMPP](https://www.apachefriends.org/pt_br/index.html) if preferred.
 
 ### Step 3: Connect to the database
 
@@ -33,7 +39,7 @@ php -S localhost:8000
 ```bash
 <?php
 $host = 'localhost';
-$dbname = 'todotaskdb';
+$dbname = 'todotasksdb';
 $user = 'postgres';
 $password = 'your-password';
 ?>
@@ -45,7 +51,7 @@ $password = 'your-password';
 - `style.css`: CSS stylesheet.
 - `script.js`: jQuery script for DOM manipulation.
 - `conn.php`: Database connection configuration file.
-- `tasks.php`: PHP file for managing CRUD operations with the database.
+- `./actions`: PHP file for managing CRUD operations with the database.
 
 ## Features
 
@@ -59,7 +65,7 @@ $password = 'your-password';
 
 - HTML
 - CSS
-- jQuery
+- JS
 - PHP
 - PostgreSQL
 
