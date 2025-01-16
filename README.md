@@ -12,7 +12,7 @@ To run this project, you will need to have the following software installed:
 
 - Node.js
 - PHP 7 or higher
-- PostgreSQL 16
+- PostgreSQL 16 or newer
 
 #### **Note**: I used the [Font Awesome](https://fontawesome.com/) for icons
 
