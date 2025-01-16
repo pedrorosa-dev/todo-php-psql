@@ -10,8 +10,8 @@ This is a Todo Task application developed using HTML, JS, CSS, PHP, and PostgreS
 
 To run this project, you will need to have the following software installed:
 
-- Node.js
-- PHP 7 or higher
+- Node.js 20+
+- PHP 7+
 - PostgreSQL 16 or newer
 
 #### **Note**: I used the [Font Awesome](https://fontawesome.com/) for icons
