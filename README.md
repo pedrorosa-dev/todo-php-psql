@@ -21,7 +21,7 @@ To run this project, you will need to have the following software installed:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/pedrorosa-dev/todo-php-psql
+git clone https://github.com/pedrorcruzz/todo-php-psql
 ```
 
 ### Step 2: Start the PHP server
